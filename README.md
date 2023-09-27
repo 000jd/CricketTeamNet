@@ -7,7 +7,7 @@ This project focuses on using machine learning to assist in the selection of a c
 The project is structured as follows:
 
 - **data**: Contains the dataset used for training and testing the model.
-  - *dataset.csv*: The dataset in CSV format.
+  - *match.csv*: The dataset in CSV format.
 
 - **models**: Contains the model classes used in this project.
   - *cricket_team_net.py*: Defines the neural network architecture.
