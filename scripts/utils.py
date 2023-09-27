@@ -999,3 +999,25 @@ all_players = ['DA Warner',
     'LMP Simmons',
     'PA Patel',
 ]
+
+Selected_Featers = [
+    'inning',
+    'player',
+    'bat_inning',
+    'ball_inning',
+    'ball_faced',
+    'run_scored',
+    '4s',
+    '6s',
+    '50s',
+    '100s',
+    'ball_delivered',
+    'run_given',
+    'wicket',
+    'catch',
+    'stump',
+    'run_out',
+    'dismissed_by',
+    'dismissal_type',
+    'dream11_score'
+]

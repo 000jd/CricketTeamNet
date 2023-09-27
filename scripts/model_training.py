@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from models.cricket_team_net import CricketTeamNetRNN
-from . import players_name
+from . import utils
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -31,7 +31,7 @@ y_train = train_df['player'].values
 X_test = test_df.drop('player', axis=1).values
 y_test = test_df['player'].values
 
-player_to_id = {player: idx for idx, player in enumerate(set(players_name.all_players))}
+player_to_id = {player: idx for idx, player in enumerate(set(utils.all_players))}
 y_train_ids = [player_to_id[player] for player in y_train]
 y_test_ids = [player_to_id[player] for player in y_test]
 
