@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 output_dir = 'data/preprocessed'
 
-data = pd.read_csv('data/dataset.csv')
+data = pd.read_csv('data/match.csv')
 
 Selected_Featers = [
                     'inning',
